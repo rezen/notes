@@ -6,6 +6,11 @@ https://blog.heroku.com/archives/2015/11/10/node-habits-2016
 - https://nodeschool.io/
 - http://exercism.io/languages/javascript
 
+## node-gyp
+**Hotfix**  
+For Windows users, sometimes will fix your problem!  
+`set VCTargetsPath=C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140`
+
 ## Debugging
 **debug-options**  
 The `node` binary has *tons* of options to play with
