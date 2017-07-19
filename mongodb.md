@@ -10,6 +10,8 @@ query="{class: 0, ts: {\$gt: ${second_ago} }}"
 mongo Health --eval "db.Stats.findOne($query).ts" &>/dev/null
 ```
 
+
+
 ## Export
 **Snapshot**  
 `mongodump --quiet -d User -o /data/snapshot/user-$(date +%Y%m%d)`
@@ -31,4 +33,18 @@ restore_data()
   mongo User --eval "$reindex" &>/dev/null
   mongo Health --eval "$reindex" &>/dev/null  
 }
+```
+
+## Schema Inspection
+With `variety.js` you can inspect a collection's schema, to get an idea of the field names and data types!
+
+https://github.com/variety/variety
+
+
+```bash
+product_class=2
+hours_ago=$(date -d '8 hour ago' "+%s")
+query="{'class': ${product_class}, 'ts': {'\$gt': ${hours_ago} }}"
+
+mongo Health --quiet --eval "var collection='Stats', query=${query}, outputFormat='json', limit=3000, maxDepth=1" variety.js
 ```
