@@ -5,6 +5,8 @@ https://www.shellcheck.net/
 ## Learning
 - https://cmdchallenge.com/
 - https://explainshell.com/
+- https://github.com/Idnan/bash-guide
+- http://exercism.io/languages/bash
 
 ### Bash Tips
 - http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming/ <- **MUST READ**
