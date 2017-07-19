@@ -10,6 +10,7 @@ Important note, the `Environment=PATH=...` does not interopolate other environme
 - https://www.dynacont.net/documentation/linux/Useful_SystemD_commands/
 - `/usr/lib/systemd/system`
 
+
 ```shell
 # After installing config
 sudo systemctl daemon-reload
@@ -45,4 +46,9 @@ sudo systemctl stop tsdb-alert@fail-cat.service.service
 
 # Show the config for the service
 sudo systemctl cat tsdb-recorder.service
+
+systemctl --user list-timers
 ```
+
+## Timers
+- https://niels.kobschaetzki.net/post/tag/systemd/
