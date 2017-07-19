@@ -1,5 +1,9 @@
 # PHP
 
+## Composer
+
+### Optmizing Autoloader
+https://getcomposer.org/doc/articles/autoloader-optimization.md
 
 ## Code Standards
 ```shell
