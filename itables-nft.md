@@ -41,15 +41,18 @@ http://ipset.netfilter.org/iptables-extensions.man.html
 `iptables -m conntrack -h`
 `iptables -m hashlimit -h 2>&1 | awk '/match options:$/,0'`
 
-### Accounting
+### Accounting & Quotas
 - https://home.regit.org/2012/07/flow-accounting-with-netfilter-and-ulogd2/
-
+- https://www.linux-noob.com/forums/index.php?/topic/3036-bandwidth-quotas-using-iptables/
+- https://varinderjhand.wordpress.com/2012/05/21/iptables-rules-to-limit-time-quota-based-acces/
+- https://unix.stackexchange.com/questions/240286/using-tc-for-traffic-quotas
 
 ## Throttling, Rate Limiting
 - https://www.rackaid.com/blog/how-to-block-ssh-brute-force-attacks/
 - https://thelowedown.wordpress.com/2008/07/03/iptables-how-to-use-the-limits-module/
 - https://debian-administration.org/article/187/Using_iptables_to_rate-limit_incoming_connections
 - http://blog.programster.org/rate-limit-requests-with-iptables/
+- https://wiki.archlinux.org/index.php/Advanced_traffic_control#Using_tc_.2B_iptables
 
 ## NFQUEUE
 Many IPS depeond on NFQUEUE to pass packet handling to themselves!
@@ -76,3 +79,5 @@ Many IPS depeond on NFQUEUE to pass packet handling to themselves!
 - https://danielmiessler.com/study/iptables/
 - https://strongarm.io/blog/linux-firewall-performance-testing/
 - https://www.tummy.com/blogs/2005/07/17/some-iptables-modules-you-probably-dont-know-about/
+- http://linuxgazette.net/108/odonovan.html
+- https://www.linode.com/docs/security/firewalls/control-network-traffic-with-iptables
