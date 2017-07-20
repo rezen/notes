@@ -4,6 +4,9 @@
 Below are the names of the tables that rules are associated with. On web services you
 will typically only interact with the filter table.
 
+**List tables**  
+`ls /lib/modules/$(uname -r)/kernel/net/ipv4/netfilter | grep -Po '(?<=iptable_)[a-z]+'`
+
 - filter
 - nat
 - mangle
@@ -19,6 +22,21 @@ will typically only interact with the filter table.
 **Really show everything**  
 `sudo iptables-save`
 
+
+## Modules & Extensions
+http://ipset.netfilter.org/iptables-extensions.man.html
+
+**List Extensions etc**   
+`sudo ls /lib/modules/$(uname -r)/kernel/net/netfilter/`  
+
+**List modules**   
+`sudo ls /lib/modules/$(uname -r)/kernel/net/netfilter/xt_* | grep -oP '(?<=xt_)([a-z]+)'`  
+
+**Find directory of modules**  
+`ls $(iptables -m xyz -h 2>&1 | grep -oP '(?<=:)([a-z0-9\/_\-\.]+)' | xargs dirname)`
+
+**Get Help on module**  
+`iptables -m conntrack -h`
 
 ## Throttling, Rate Limiting
 - https://www.rackaid.com/blog/how-to-block-ssh-brute-force-attacks/
@@ -39,3 +57,5 @@ will typically only interact with the filter table.
 - https://wiki.archlinux.org/index.php/simple_stateful_firewall#Tricking_port_scanners
 - https://wiki.archlinux.org/index.php/Sysctl#TCP.2FIP_stack_hardening
 - https://danielmiessler.com/study/iptables/
+- https://strongarm.io/blog/linux-firewall-performance-testing/
+- https://www.tummy.com/blogs/2005/07/17/some-iptables-modules-you-probably-dont-know-about/
