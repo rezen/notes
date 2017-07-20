@@ -44,6 +44,16 @@ http://ipset.netfilter.org/iptables-extensions.man.html
 - https://debian-administration.org/article/187/Using_iptables_to_rate-limit_incoming_connections
 - http://blog.programster.org/rate-limit-requests-with-iptables/
 
+## NFQUEUE
+Many IPS depeond on NFQUEUE to pass packet handling to themselves!
+- http://sublimerobots.com/2017/06/snort-ips-with-nfq-routing-on-ubuntu/
+- https://wiki.nftables.org/wiki-nftables/index.php/Queueing_to_userspace
+- https://5d4a.wordpress.com/2011/08/25/having-fun-with-nfqueue-and-scapy/
+- https://byt3bl33d3r.github.io/using-nfqueue-with-python-the-right-way.html
+- http://www.cs.dartmouth.edu/~sergey/netreads/S2016/task4.txt
+- http://blog.yancomm.net/2011/05/nfqueue-packet-mangling-with-python.html
+- https://www.wzdftpd.net/blog/nfqueue-bindings.html
+
 ## Links
 - http://shop.oreilly.com/product/9780596005696.do
 - https://www.garron.me/en/linux/iptables-manual.html
