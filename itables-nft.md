@@ -1,5 +1,7 @@
 # Iptables & nftables
 
+https://serverfault.com/questions/451104/how-do-you-test-iptables-rules-to-prevent-remote-lockout-and-check-matches/519430
+
 ## Tables
 Below are the names of the tables that rules are associated with. On web services you
 will typically only interact with the filter table.
@@ -16,7 +18,7 @@ will typically only interact with the filter table.
 ## Rules
 
 **List all the rules**  
-`sudo iptables -L -v --line-numbers`
+`sudo iptables -nvL --line-numbers`
 
 **Show rules**  
 ` sudo iptables -S`
@@ -38,8 +40,8 @@ http://ipset.netfilter.org/iptables-extensions.man.html
 `ls $(iptables -m xyz -h 2>&1 | grep -oP '(?<=:)([a-z0-9\/_\-\.]+)' | xargs dirname)`
 
 **Get Help on module**  
-`iptables -m conntrack -h`
-`iptables -m hashlimit -h 2>&1 | awk '/match options:$/,0'`
+`iptables -m conntrack -h`  
+`iptables -m hashlimit -h 2>&1 | awk '/match options:$/,0'`  
 
 ### Accounting & Quotas
 - https://home.regit.org/2012/07/flow-accounting-with-netfilter-and-ulogd2/
@@ -63,6 +65,10 @@ Many IPS depeond on NFQUEUE to pass packet handling to themselves!
 - http://www.cs.dartmouth.edu/~sergey/netreads/S2016/task4.txt
 - http://blog.yancomm.net/2011/05/nfqueue-packet-mangling-with-python.html
 - https://www.wzdftpd.net/blog/nfqueue-bindings.html
+
+## Custom Chains
+- https://ruleant.blogspot.com/2011/04/less-complex-firewall-configuration.html
+- https://www.slideshare.net/DieterAdriaenssens/iptables-linuxtag-8may2014
 
 ## Links
 - http://shop.oreilly.com/product/9780596005696.do
