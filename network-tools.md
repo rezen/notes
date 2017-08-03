@@ -2,6 +2,7 @@
 
 - https://image.slidesharecdn.com/devoxxbelgium2016-debuggingdistributedsystems-161110141549/95/debugging-distributed-systems-devoxx-belgium-2016-extended-64-1024.jpg?cb=1478787475
 - https://www.slideshare.net/DonnyNadolny/debugging-distributed-systems-devoxx-belgium-2016-extended
+- http://mark.koli.ch/slowdown-throttle-bandwidth-linux-network-interface
 
 **Add latency**  
 `tc qdisc add dev eth0 root netem delay 500ms 100ms loss 25%`  
@@ -29,3 +30,11 @@ alternative: nbd (network block device)
 
 - `netstat -peanut` Network connections, regular kerl view
 - `conntrack -L`  Network connections iptables view
+
+### VXLAN
+- https://vincent.bernat.im/en/blog/2017-vxlan-bgp-evpn
+- https://vincent.bernat.im/en/blog/2017-vxlan-linux
+
+
+## Tools
+- https://coderwall.com/p/zqulaw/introduction-to-ngrep
