@@ -48,3 +48,7 @@ query="{'class': ${product_class}, 'ts': {'\$gt': ${hours_ago} }}"
 
 mongo Health --quiet --eval "var collection='Stats', query=${query}, outputFormat='json', limit=3000, maxDepth=1" variety.js
 ```
+
+## Security
+- https://www.cyberciti.biz/faq/how-to-secure-mongodb-nosql-production-database/
+- http://thecodebarbarian.com/casting-mongodb-queries-with-archetype.html
