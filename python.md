@@ -1,5 +1,14 @@
 # Notes - Python
 
+### Quick Web Server
+
+```bash
+# Python 2.x
+python -m SimpleHTTPServer 8000
+
+# Python 3.x
+python -m http.server 8000
+```
 
 ## Python Resources
 - http://jtushman.github.io/blog/2014/01/14/python-|-multiprocessing-and-interrupts/
@@ -21,3 +30,15 @@
 - http://tech.marksblogg.com/faster-django-testing.html
 - http://alexmic.net/flask-sqlalchemy-pytest/
 - https://gist.github.com/Spindel/1d07533ef94a4589d348
+- http://sedimental.org/plugin_systems.html
+- https://thenewstack.io/instagram-makes-smooth-move-python-3/
+- http://jakevdp.github.io/blog/2017/05/26/exposing-private-dict-version/
+- https://engineering.instagram.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172
+
+## Testing
+
+- http://hackebrot.github.io/pytest-tricks/
+- http://tech.marksblogg.com/faster-django-testing.html
+- http://krzysztofzuraw.com/blog/2016/mocks-monkeypatching-in-python.html
+- http://www.alexandrejoseph.com/blog/2015-08-21-python-mock-example.html
+- http://alexmarandon.com/articles/python_mock_gotchas/
