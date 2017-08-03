@@ -8,6 +8,7 @@ Important note, the `Environment=PATH=...` does not interopolate other environme
 - https://fedoramagazine.org/systemd-template-unit-files/
 - http://www.tecmint.com/manage-services-using-systemd-and-systemctl-in-linux/
 - https://www.dynacont.net/documentation/linux/Useful_SystemD_commands/
+- https://blog.tjll.net/systemd-for-impatient-sysadmins/
 - `/usr/lib/systemd/system`
 
 
@@ -48,6 +49,9 @@ sudo systemctl stop tsdb-alert@fail-cat.service.service
 sudo systemctl cat tsdb-recorder.service
 
 systemctl --user list-timers
+
+# Customize an existing services config
+systemctl edit nginx.service
 ```
 
 ## Timers
