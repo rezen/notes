@@ -23,6 +23,9 @@ https://www.shellcheck.net/
 - https://stelfox.net/blog/2013/11/fail-fast-in-bash-scripts/
 - http://rockhopper.monmouth.edu/cs/jchung/cs370/cs_370_-_subshells_and_parallel_processing
 - https://jvns.ca/blog/2017/03/26/bash-quirks/
+- https://medium.com/wemake-services/testing-bash-applications-85512e7fe2de
+- https://likegeeks.com/bash-scripting-step-step-part2/
+- https://dev.to/thiht/shell-scripts-matter
 
 ## Windows
 **Windows cmd.exe access BASH WSL**  
