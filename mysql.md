@@ -40,3 +40,4 @@ Faster, parallelized database dumps for mysql.
 - https://twindb.com/use-proxysql-tools/
 - http://code.openark.org/blog/mysql/whats-so-complicated-about-a-master-failover
 - https://www.digitalocean.com/community/tutorials/how-to-measure-mysql-query-performance-with-mysqlslap
+- http://code.openark.org/blog/mysql/whats-so-complicated-about-a-master-failover

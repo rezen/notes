@@ -88,6 +88,7 @@ Many IPS depeond on NFQUEUE to pass packet handling to themselves!
 - http://linuxgazette.net/108/odonovan.html
 - https://www.linode.com/docs/security/firewalls/control-network-traffic-with-iptables
 - https://github.com/fnzv/nShield
+- https://jvns.ca/blog/2017/06/07/iptables-basics/
 
 ## nftables
 - https://developers.redhat.com/blog/2017/04/11/benchmarking-nftables/

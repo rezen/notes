@@ -17,3 +17,5 @@ terraform import digitalocean_tag.scanner scanner
 - https://blog.bennycornelissen.nl/terraform-tricks-override-variables/
 - https://heap.engineering/terraform-gotchas/
 - https://charity.wtf/tag/terraform/
+- https://getintodevops.com/blog/using-ansible-with-terraform#.WSxlNyppLBk.twitter
+- https://medium.com/@kief/https-medium-com-kief-using-pipelines-to-manage-environments-with-infrastructure-as-code-b37285a1cbf5

@@ -15,8 +15,10 @@ iptables -A OUTPUT -p tcp --dport 53 -j NFQUEUE --queue-num 1
 iptables -A OUTPUT -p udp --dport 53 -j NFQUEUE --queue-num 1
 ```
 
-## Resources
+## Links
+
 - https://danielmiessler.com/blog/building-ids-centos-using-suricata/
+- https://danielmiessler.com/blog/how-to-install-suricata-on-a-linux-box-in-5-minutes/
 - https://hackertarget.com/install-suricata-ubuntu-5-minutes/
 - https://redmine.openinfosecfoundation.org/projects/suricata/wiki/Ubuntu_Installation_-_Personal_Package_Archives_%28PPA%29#Beta-releases
 - https://redmine.openinfosecfoundation.org/projects/suricata/wiki/Common_Errors

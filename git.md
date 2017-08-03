@@ -15,3 +15,5 @@
   `git diff remotes/origin/master remotes/origin/security-tweak --name-only`
 - Git show pending merges  
 `git show-ref | grep merge | cut -d' ' -f1 | xargs -I{} git show {}`
+
+- https://github.com/blog/2019-how-to-undo-almost-anything-with-git

@@ -38,3 +38,7 @@ alternative: nbd (network block device)
 
 ## Tools
 - https://coderwall.com/p/zqulaw/introduction-to-ngrep
+
+## Links
+- https://www.michaelwlucas.com/networking/n4sa
+- https://jvns.ca/zines/#networking-ack

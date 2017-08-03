@@ -70,4 +70,5 @@ perf record -F 99 -p `pgrep -n node` -g -- sleep 30
 - https://github.com/node-inspector/v8-profiler
 - https://blog.risingstack.com/finding-a-memory-leak-in-node-js/
 - http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html
-
+- http://www.bretfisher.com/node-docker-good-defaults/
+- https://medium.com/mozilla-tech/mozilla-and-node-js-33c13e29beb1
