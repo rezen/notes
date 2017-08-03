@@ -22,9 +22,21 @@ mysqldump --no-data --routines --triggers > schema.sql
 - http://francis-besset.com/backup-your-mysql-servers-and-restore-them-quickly.html
 
 
+### mydumper
+Faster, parallelized database dumps for mysql.
+- https://www.pythian.com/blog/multi-tb-migration-using-mydumper/
+- https://vitobotta.com/2011/01/06/mysql-backups-and-restores/
+- https://www.percona.com/blog/2015/11/12/logical-mysql-backup-tool-mydumper-0-9-1-now-available/
+- http://imagexmedia.com/blog/2014/11/speeding-your-mysql-dumprestores-mydumper
+
+### XtraBackup
+"Enterprisey" level backup tool for mysql.
+
+- https://www.percona.com/doc/percona-xtrabackup/2.4/index.html
 
 ## Links
 - https://speakerdeck.com/samlambert/the-mysql-ecosystem-at-github-2015
 - https://www.percona.com/blog/2017/03/06/mysql-i-am-a-dummy/
 - https://twindb.com/use-proxysql-tools/
 - http://code.openark.org/blog/mysql/whats-so-complicated-about-a-master-failover
+- https://www.digitalocean.com/community/tutorials/how-to-measure-mysql-query-performance-with-mysqlslap
