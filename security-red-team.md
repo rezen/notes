@@ -8,3 +8,5 @@
 - https://andreafortuna.org/reverse-shells-with-netcat-some-use-cases-cc3aba835656
 - http://seclist.us/pyjenkinstoolkit-is-a-jenkins-penetration-test-toolkit.html
 - https://pen-testing.sans.org/blog/2017/02/02/pen-test-poster-white-board-bash-bashs-built-in-netcat-client
+- https://www.pentesterlab.com/exercises/play_xxe/course
+- https://www.hackthissite.org/
