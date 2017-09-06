@@ -4,6 +4,11 @@
 ```shell
 # XML handling utils to make life easier
 apt-get install -y  libxml2-utils
+pip install https://github.com/hay/xml2json/zipball/master
+
+# Update definitions
+greenbone-nvt-sync
+openvasmd --rebuild --progress
 
 # List all targets
 omp -u admin -w admin  --xml='<get_targets/>'
