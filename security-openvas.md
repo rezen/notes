@@ -42,6 +42,15 @@ omp --pretty-print --xml='<get_reports report_id="adb7dc80-f3e8-4231-9533-56bd45
 xmllint --xpath 'string(/get_reports_response/report)' report.xml  | head -n -16 |  base64 --decode > report.csv
 ```
 
+```python
+from __future__ import print_function
+import openvas
+manager = openvas.omplib.OMPClient(host=sensor)
+manager.open(username, password)
+print(manager.get_targets())
+```
+
+
 ## Links
 - https://github.com/mikesplain/openvas-docker
 - https://www.linuxquestions.org/questions/linux-networking-3/openvas-create-new-tasks-from-omp-4175511045/
@@ -55,3 +64,5 @@ xmllint --xpath 'string(/get_reports_response/report)' report.xml  | head -n -16
 - https://www.linode.com/docs/security/install-openvas-on-ubuntu-16-04
 - https://joedsweb.wordpress.com/2017/02/11/openvas-nagiosplugin/
 - https://www.coveros.com/automating-security-with-devops-it-can-work/
+- http://docs.greenbone.net/API/OMP/omp-7.0.html
+- http://lists.wald.intevation.org/pipermail/openvas-devel/2010-August/002330.html

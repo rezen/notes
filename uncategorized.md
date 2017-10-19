@@ -6,3 +6,11 @@
 - https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/
 - https://medium.com/quick-mobile/monitoring-containers-with-prometheus-ffde286c17f7#.rzw5y9by3
 - http://harish11g.blogspot.com/2014/08/amazon-cloudformation-templates-automation-Amazon-CFT-AWS-top-best-practices-tips.html
+
+
+```shell
+# trace system calls
+strace curl https://www.google.com |& grep open
+```
+
+https://www.rebootuser.com/
