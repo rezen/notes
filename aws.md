@@ -70,6 +70,7 @@ http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Appendix_NACLs.html
 
 ## S3
 - Buckets of storage yo
+- https://www.secplicity.org/2017/10/13/s3-bucket-security-acls-policies/amp/
 
 
 ## CloudWatch
@@ -150,6 +151,9 @@ Think of it as the auditd of linux but for AWS
     git config --global credential.UseHttpPath true
     ```
 
+
+## Security
+- http://flaws.cloud/
 
 ## Other
 - Use Resource GRoups to get a birds eye view of everything, across AZs
