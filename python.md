@@ -21,7 +21,7 @@ python -m http.server 8000
 - https://wiki.python.org/moin/DebuggingWithGdb
 - http://stackoverflow.com/questions/11854519/python-multiprocessing-some-functions-do-not-return-when-they-are-complete-que
 - https://www.troyfawkes.com/learn-python-multithreading-queues-basics/
-- https://mkaz.tech/python-string-format.html
+- https://mkaz.blog/code/python-string-format-cookbook/
 - https://zapier.com/engineering/debugging-python-boss/
 - https://fangpenlin.com/posts/2012/08/26/good-logging-practice-in-python/
 - http://kronosapiens.github.io/blog/2014/07/28/understanding-package-imports-in-python.html
