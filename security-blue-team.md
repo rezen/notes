@@ -11,3 +11,10 @@
 - http://www.austintaylor.io/suricata/elasticsearch/logstash/continuous/monitoring/intrusion/detection/system/2016/12/17/build-a-world-class-monitoring-system-enterprise-small-office-home/
 - https://blog.appsecco.com/automated-defense-using-serverless-computing-84ee04b9b129
 - https://github.com/nim4/DBShield
+
+
+**Windows Firewall open port**
+```shell
+netsh firewall add portopening protocol=TCP port=5151 name="Web Server (TCP 5151)" mode=ENABLE
+netsh firewall reset
+```
