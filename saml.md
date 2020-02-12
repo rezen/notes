@@ -1,0 +1,4 @@
+- https://www.youtube.com/watch?v=SvppXbpv-5k
+- https://owasp.org/www-project-cheat-sheets/cheatsheets/SAML_Security_Cheat_Sheet.html
+- https://github.com/jch/saml
+- https://www.samltool.com/index.php

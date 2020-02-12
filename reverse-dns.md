@@ -1,0 +1,5 @@
+- https://github.com/s-amine/RitX/blob/master/RitX.pl
+- https://viewdns.info/api/
+- https://opendata.rapid7.com/sonar.rdns_v2/
+- https://viewdns.info/api/
+- https://0xpatrik.com/project-sonar-guide/
