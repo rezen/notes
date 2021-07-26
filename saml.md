@@ -2,3 +2,6 @@
 - https://owasp.org/www-project-cheat-sheets/cheatsheets/SAML_Security_Cheat_Sheet.html
 - https://github.com/jch/saml
 - https://www.samltool.com/index.php
+- https://duo.com/blog/the-beer-drinkers-guide-to-saml
+- https://epi052.gitlab.io/notes-to-self/blog/2019-03-07-how-to-test-saml-a-methodology/
+- https://gravitational.com/blog/how-saml-authentication-works/

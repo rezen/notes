@@ -57,4 +57,4 @@ OpenID Connect does both.
 - https://www.theidentitycookbook.com/2016/10/protect-bearer-tokens-using-proof-of.html
 - https://connect2id.com/learn/token-binding
 - https://infosec.mozilla.org/guidelines/iam/openid_connect.html
-
+- https://www.pingidentity.com/en/company/blog/posts/2019/jwt-security-nobody-talks-about.html

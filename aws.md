@@ -137,6 +137,12 @@ Storing encryption keys in the cloud
 ## AWS Config
 - Run a set of checks against resources to ensure adherance to certain standards
 - $2 a rule
+- https://youtu.be/kErRv4YB_T4
+- https://www.youtube.com/watch?v=fBewaclMo2s
+- https://jupiterone.com/blog/we-turned-off-aws-config/
+- `AWS_REGION=us-west-1 aws configservice describe-config-rules`
+- List of AWS managed rules
+  - https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html
 
 ## CloudTrail
 Think of it as the auditd of linux but for AWS
